@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Summer 2020 DREU Project Site
+title: Summer 2021 CRA DREU Project Site
 ---
 
 * TOC
@@ -14,6 +14,8 @@ My info goes here.
 
 Mentor info goes here.
 
+<i class="fas fa-square-full"></i>
+
 ## About My Project
 
 Project description goes here.
@@ -22,4 +24,4 @@ Project description goes here.
 
 ## My Blog
 
-[My Blog](blog.html)
+[My Blog](blog)
