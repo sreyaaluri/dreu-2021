@@ -29,18 +29,8 @@ body {
   max-width: 75%;
 }
 
-.section-heading {
-  margin-bottom: 32px;
-  font-size: 24px;
-}
-.section {
-  margin-bottom: 32px;
-  font-size: 20px;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $quicksand;
-  color: $white;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -65,7 +55,6 @@ h3 {
 
 h4 {
   font-size: 20px;
-  color: $white;
 }
 
 p {
@@ -121,7 +110,6 @@ img {
 
 .date {
   font-style: italic;
-  color: $white;
 }
 
 // Specify the color of the selection
@@ -151,96 +139,25 @@ img {
 /*********************/
 
 //
-// .masthead
+// .default
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
+.section-heading {
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+.section {
+  margin-bottom: 32px;
+  font-size: 20px;
 }
 
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $white;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $white;
-  cursor: pointer;
-  font-family: $quicksand;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $white;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $quicksand;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $yellow;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $pink;
-    }
-  }
+.fas {
+  font-size: 12px;
+  vertical-align: middle;
 }
 
 .page-title {
+  color: $white;
   margin-bottom: 32px;
   @include mobile {
     font-size: 30px;
@@ -248,18 +165,8 @@ nav {
 }
 
 //
-// .main
+// .post
 //
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $gray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
 
 .post {
   blockquote {
@@ -279,21 +186,4 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
-}
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-.fas {
-  font-size: 12px;
-  vertical-align: middle;
 }
