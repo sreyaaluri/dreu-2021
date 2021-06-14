@@ -1,0 +1,33 @@
+---
+layout: default
+title: Summer 2021 CRA DREU Project
+---
+
+<div class="section-heading"><i class="fas fa-square-full"></i> intro</div>
+<div class="section">
+
+</div>
+
+<div class="section-heading"><i class="fas fa-square-full"></i> blog</div>
+<div class="section">
+  {% for post in site.posts %}
+  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> /
+  {% endfor %}
+</div>
+
+<!-- <div></div><i class="fas fa-square-full"></i><h3>intro</h3>
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div> -->

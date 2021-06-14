@@ -3,8 +3,6 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-
   <div class="entry">
     {{ content }}
   </div>
@@ -12,5 +10,6 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  <h4>click <a href="{{ site.baseurl }}/">here</a> to go back.</h4>
 
 </article>

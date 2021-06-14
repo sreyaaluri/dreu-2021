@@ -23,6 +23,9 @@
     <div class="container">
       <h1 class="page-title">{{ page.title }}</a></h1>
       {{ content }}
+      <!-- <h4>click <a href="{{ site.baseurl }}/">here</a> to go back home.</h4> uncomment after personal website is up.  -->
+      <!-- <h4>click <a href="{{ site.baseurl }}/{% if page.prev %}{{ page.prev }}{% endif %}">here</a> to go back{% if page.prev==null %} home{% endif %}.</h4> -->
+
     </div>
   </body>
 </html>
