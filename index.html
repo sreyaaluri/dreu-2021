@@ -5,8 +5,9 @@ title: Summer 2021 CRA DREU Project
 
 <div class="section-heading"><i class="fas fa-square-full"></i> intro</div>
 <div class="section">
-  I am Sreya Aluri, an international student and rising senior at the University of Richmond double majoring in Computer Science and Physics.
-  You can know more about me through <a href="https://sreyaaluri.github.io">my website</a>.
+  I am Sreya Aluri, an international student at the University of Richmond. I am a rising senior and I intend to graduate in May of 2022 with a Bachelor of Science degree in Computer Science and Physics. 
+  You can <a href="mailto:sreyaaluri@gmail.com">contact me via email</a>.
+  <!-- You can know more about me through <a href="https://sreyaaluri.github.io">my website</a>. uncomment after personal website is done-->
   This site is where I document my experience as I research a deep neural network that can be used for the detection of fine-scale hydrological streamlines.
   I worked on this research project under the guidance of Dr. Zhe Jiang, Assistant Professor of Computer Science at the University of Alabama, whose research area is interdisciplinary artificial intelligence.
   To know more about Dr. Jiang you can visit <a href="https://www.jiangteam.org/index.html">his website</a>.
@@ -16,7 +17,7 @@ title: Summer 2021 CRA DREU Project
 <div class="section">
   {% for post in site.posts reversed %}
   {% if post.finished %}
-    <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> /
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> /
   {% else %}
     {{post.title}} /
   {% endif %}
